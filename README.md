@@ -35,27 +35,30 @@ Recomendo utilizar o visual studio code, pela maioria dos conteúdos também uti
 
 # 2. Criando uma solução ou abrindo uma existente
 
-### 2.1 Criando uma solução
+### 2.1. Criando uma solução
 Para criar uma solução, crie um diretório e na linha de comando utilize o comando abaixo do ng para criar toda a estrutura padrão: 
 * ng new NOMEDASOLUCAO
 
-### 2.2 Abrindo uma solução existente
-Caso queria abrir uma solução existente, você pode baixá-la utilizando os plugins do GIT, caso seja TFS recomendo baixar por fora. Então com a solução já baixada, baixe as referencias de packages do projeto utilizando o comando abaixo:
+### 2.2. Abrindo uma solução existente
+Caso queria abrir uma solução existente, você pode baixá-la utilizando os plugins do GIT, caso seja TFS recomendo baixar por fora (No Visual Studio normal). Então com a solução já baixada, baixe as referencias de packages do projeto utilizando o comando abaixo:
 * npm install
 
-### 2.3 Rodando
+### 2.3. Rodando
 Finalmente rode o seu projeto com o comando abaixo
 * ng serve
 
 
-### Demais fontes
+# 3. Demais fontes
+
+### 3.1. Links gerais 
 * https://angular.io/api (Documentação da API)
 * https://angular.io/guide/cheatsheet (CheatSheet do Angular)
-* https://github.com/angular/angular-cli/wiki (Wiki com CheatSheet do AngularCLI/NG)
-* https://loiane.training/course/angular/ (Curso em Portugues gratuito)
-* https://docs.npmjs.com/getting-started/what-is-npm (Curso NPM completo Inglês)
 * https://update.angular.io/ (Guias para atualizar a versão do angular do seu projeto)
+* https://loiane.training/course/angular/ (Curso em Portugues gratuito)
 
+### 3.2. Ferramentas satélites
+* https://github.com/angular/angular-cli/wiki (Wiki com CheatSheet do AngularCLI/NG)
+* https://docs.npmjs.com/getting-started/what-is-npm (Curso NPM completo Inglês)
 
-### Repositório de exemplos e técnicas
+### 3.2. Repositório de exemplos e técnicas
 * https://github.com/funcionalcorp/Angular6DynamicForm (Formulários dinâmicos)
