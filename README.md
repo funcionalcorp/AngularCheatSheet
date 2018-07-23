@@ -1,7 +1,7 @@
 # Angular Cheat Sheet
 Colas para Angular, instalação, configuração, conceitos e comandos frequentes
 
-# 1.Instalação
+# 1. Instalação
 
 ### 1.1. NodeJS (Vem com NPM)
 O nodeJS é necessário porque vem com/roda o NPM que é o gerenciador de pacotes do Angular.
