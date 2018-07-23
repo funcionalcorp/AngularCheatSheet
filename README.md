@@ -5,7 +5,7 @@ Colas para Angular, instalação, configuração, conceitos e comandos frequente
 
 ### 1.1. NodeJS (Vem com NPM)
 O nodeJS é necessário porque vem com/roda o NPM que é o gerenciador de pacotes do Angular.
-https://update.angular.io/ 
+https://nodejs.org/en/download/
 
 ### 1.2. Typescript 
 Typescript é a linguagem oficial do Angular, criada pela Microsoft, pode ser instalado facilmente através do NPM. Utilize o comando abaixo para instalar:
@@ -14,7 +14,6 @@ Typescript é a linguagem oficial do Angular, criada pela Microsoft, pode ser in
 ### 1.3. Angular CLI (Command line interface) (NG)
 É a linha de comando do angular, não é obrigatória, porém, essencial, pois, gera códigos de templates. Não se preocupe são menos de 10 comandos utilizados e fáceis de se decorar. Utilize o comando abaixo para instalar:
 * npm install -g @angular/cli
-
 
 ### 1.4. Variáveis de ambiente
 Pode ser que de acordo com o seu S.O., você precise adicionar o node/ts/ng nas variáveis de ambiente para poder utilizar com mais fácilidade em qualquer diretório da sua linha de comando.
