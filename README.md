@@ -57,6 +57,7 @@ Finalmente rode o seu projeto com o comando abaixo
 * Modulos do angular são utilizados para agrupar conteúdos, isto ajuda na organização das referencias e também tem outras utilidades (separação dos pacotes).
 * O projeto padrão do angular vem com 2 tipos de padrões de testes:  e2e jasmine (proactor.conf.js) que testa no browser e o karma (karma.conf.js) que é teste unitário, parece ser bem interessante para automação de testes. Parecem ser fáceis, mas ainda não testei muito.
 * O angular vem com o tslint que é uma espécie de R# para TS, as configurações ficam no tslint.json
+* Mantenha a estrutura de pastas do Angular e tenha bom senso na organização, isto é super importante para a escalabilidade da aplicação, veja esta aplicação exemplo: https://github.com/juniortarcisio/WITP 
 
 
 
