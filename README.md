@@ -47,18 +47,30 @@ Caso queria abrir uma solução existente, você pode baixá-la utilizando os pl
 Finalmente rode o seu projeto com o comando abaixo
 * ng serve
 
+# 3. Dicas de utilização
 
-# 3. Demais fontes
+### 3.1. Geral
+* Angular é voltado para SPA (Single Page Application), enxergue o index.html e o app-componente principal como sendo equivalente à uma masterPage (webforms) ou Layouts (mvc), os componentes internos podem ser duas categorias: ContentPages(webforms)/Views(MVC) quando dentro de um router-outlet (holder da view), ou pode ser equivalente a usercontrols(webforms)/subviews(mvc). Porém, muito mais maleáveis, dinâmicos e fáceis devido ao fato de serem totalmente client side.
+* Todo componente tem por default 4 arquivos: CSS, HTML, TS e Teste unitário. Caso não estejam fazendo os testes unitários apenas ignorar
+* Além dos componentes acima, existem os services, são os arquivos que contém as lógicas de negócio do front (Normalmente acessar uma API e fazer algumas operações menores, formatações e manuseações que possam ser necessárias). Normalmente se agrupam os arquivos services em uma pasta para melhor organização.
+* Utilize o Angular CLI para criar a estrutura de um projeto e também para criar os seus arquivos (components, services, modules, etc), isso poupa bastante esforço
+* Modulos do angular são utilizados para agrupar conteúdos, isto ajuda na organização das referencias e também tem outras utilidades (separação dos pacotes).
+* O projeto padrão do angular vem com 2 tipos de padrões de testes:  e2e jasmine (proactor.conf.js) que testa no browser e o karma (karma.conf.js) que é teste unitário, parece ser bem interessante para automação de testes. Parecem ser fáceis, mas ainda não testei muito.
+* O angular vem com o tslint que é uma espécie de R# para TS, as configurações ficam no tslint.json
 
-### 3.1. Links gerais 
+
+
+# 4. Demais fontes
+
+### 4.1. Links gerais 
 * https://angular.io/api (Documentação da API)
 * https://angular.io/guide/cheatsheet (CheatSheet do Angular)
 * https://update.angular.io/ (Guias para atualizar a versão do angular do seu projeto)
 * https://loiane.training/course/angular/ (Curso em Portugues gratuito)
 
-### 3.2. Ferramentas satélites
+### 4.2. Ferramentas satélites
 * https://github.com/angular/angular-cli/wiki (Wiki com CheatSheet do AngularCLI/NG)
 * https://docs.npmjs.com/getting-started/what-is-npm (Curso NPM completo Inglês)
 
-### 3.2. Repositório de exemplos e técnicas
+### 4.2. Repositório de exemplos e técnicas
 * https://github.com/funcionalcorp/Angular6DynamicForm (Formulários dinâmicos)
