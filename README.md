@@ -47,6 +47,7 @@ Finalmente rode o seu projeto com o comando abaixo
 ### Demais fontes
 * https://angular.io/api (Documentação da API)
 * https://angular.io/guide/cheatsheet (CheatSheet do Angular)
+* https://github.com/angular/angular-cli/wiki (Wiki com CheatSheet do AngularCLI/NG)
 * https://loiane.training/course/angular/ (Curso em Portugues gratuito)
 * https://docs.npmjs.com/getting-started/what-is-npm (Curso NPM completo Inglês)
 * https://update.angular.io/ (Guias para atualizar a versão do angular do seu projeto)
