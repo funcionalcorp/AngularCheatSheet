@@ -33,6 +33,17 @@ Recomendo utilizar o visual studio code, pela maioria dos conteúdos também uti
 * Tambem é possível mover a pasta para a direita
 * Existem plugins para TFS, porém, são bem fracos apenas checkin e get. As demais operações recomendo utilizar o Visual Studio normal.
 
+### 7. Crie sua solução ou baixe uma existente
+Para criar uma solução, crie um diretório e na linha de comando utilize o comando abaixo do ng para criar toda a estrutura padrão: 
+* ng new NOMEDASOLUCAO
+
+Caso queria abrir uma solução existente, você pode baixá-la utilizando os plugins do GIT, caso seja TFS recomendo baixar por fora. Então com a solução já baixada, baixe as referencias de packages do projeto utilizando o comando abaixo:
+* npm install
+
+Finalmente rode o seu projeto com o comando abaixo
+* ng serve
+
+
 ### Demais fontes
 * https://angular.io/api (Documentação da API)
 * https://angular.io/guide/cheatsheet (CheatSheet do Angular)
